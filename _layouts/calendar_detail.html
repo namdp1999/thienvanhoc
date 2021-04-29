@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- start blog content section --> 
+<section class="blog-right-side-bar bg-dark">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 right-sidebar md-margin-60px-bottom sm-margin-40px-bottom">
+              <div class="row">
+                  <div class="col-12 blog-details-text last-paragraph-no-margin">
+                      {{ content }}
+                  </div>
+              </div>
+          </div>
+          <!-- start sidebar -->
+          <aside class="col-12 col-xl-3 offset-xl-1 col-lg-4 col-md-7 blog-sidebar lg-padding-4-rem-left md-padding-15px-left">
+              <div class=" bg-black border-all border-color-medium-dark border-radius-6px padding-40px-all text-center margin-5-rem-bottom xs-margin-35px-bottom">
+                {%- include moon-phase.html -%}
+              </div>
+          </aside>
+          <!-- end sidebar -->
+      </div>
+  </div>
+</section>
+<!-- end blog content section -->

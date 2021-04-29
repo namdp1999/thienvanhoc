@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif!important;
+    overflow-x: hidden;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 15px;
+}
+
+.simple-dropdown .dropdown-menu .dropdown a {
+    font-size: 14px;
+}
+
+.text-medium {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.title-large {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.blog-grid .blog-post-image .blog-category {
+    bottom: 23px;
+    left: 23px;
+    top: auto;
+    right: auto;
+    font-size: 13px;
+    background: rgba(23, 23, 23, 0.75);
+    color: #fff;
+    text-transform: unset;
+}
+
+.post_title {
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 56px;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+    outline-offset: 0;
+    color: #FFC367;
+}
+
+.text-primary {
+    color: #FFC367;
+}
+
+.bg-primary {
+    background: #FFC367;
+}
+
+@media (max-width: 991px) {
+    .navbar.bg-transparent {
+        background-color: #343a40!important;
+    }
+
+    .navbar.navbar-dark.bg-transparent .navbar-nav .nav-link {
+        color: #fff!important;
+    }
+
+    .navbar.navbar-dark .navbar-nav>.nav-item.dropdown.simple-dropdown:hover>a {
+        color: #fff!important;
+    }
+
+    .navbar-dark.bg-transparent .navbar-toggler-line {
+        background: #fff;
+    }
+
+    .navbar.navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    .navbar.navbar-dark .navbar-nav>.nav-item.dropdown.simple-dropdown:hover>a {
+        color: #fff!important;
+    }
+}

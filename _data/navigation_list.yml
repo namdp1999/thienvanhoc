@@ -1,0 +1,52 @@
+lichthienvan:
+  - title: Lịch thiên văn
+    description: Danh sách lịch thiên văn các năm.
+    url: /lich-thien-van/
+    subfolderitems:
+      - page: Năm 2022
+        url: /lich-thien-van/nam-2022/
+        image: 2022.gif
+      - page: Năm 2023
+        url: /lich-thien-van/nam-2023/
+        image: 2023.gif
+      - page: Năm 2024
+        url: /lich-thien-van/nam-2024/
+        image: 2024.gif
+      - page: Năm 2025
+        url: /lich-thien-van/nam-2025/
+        image: 2025.gif
+      - page: Năm 2026
+        url: /lich-thien-van/nam-2026/
+        image: 2026.gif
+      - page: Năm 2027
+        url: /lich-thien-van/nam-2027/
+        image: 2027.gif
+      - page: Năm 2028
+        url: /lich-thien-van/nam-2028/
+        image: 2028.gif
+      - page: Năm 2029
+        url: /lich-thien-van/nam-2029/
+        image: 2029.gif
+      - page: Năm 2030
+        url: /lich-thien-van/nam-2030/
+        image: 2030.gif
+kienthuc:
+  - title: Kiến thức
+    url: /kien-thuc/
+    subfolderitems:
+      - page: Hệ mặt trời
+        url: /he-mat-troi/
+      - page: Ngôi sao
+        url: /ngoi-sao/
+      - page: Thiên hà
+        url: /thien-ha/
+      - page: Tinh vân
+        url: /tinh-van/
+tintuc:
+  - title: Tin tức
+    url: /tin-tuc/
+    subfolderitems:
+      - page: Tin tức mới
+        url: /tin-tuc-moi/
+      - page: Tin Nasa
+        url: /tin-nasa/

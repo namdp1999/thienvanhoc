@@ -1,0 +1,51 @@
+<style>
+    #moon {
+        margin: 0 auto;
+        text-align: right;
+        height: 65px;
+        width: 180px;
+    }
+    #earth {
+        margin: 0 auto;
+        text-align: center;
+        width: 180px;
+        height: 180px;
+        border: 0;
+    }
+
+    #earth {
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -khtml-border-radius: 50%;
+        -o-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        background-color: transparent;
+        background-size: 180px 180px;
+        background-repeat: no-repeat;
+        background-image: url("{{ site.baseurl }}/images/moon-phase/Earth.jpg");
+    }
+</style>
+
+<div id="moon">
+    <script>
+        var pastdate;
+        var pastyear = 2002;
+        var pastmonth = 5;
+        var pastday = 11;
+        var nowdate;
+        var c;
+        var moonday;
+        var i_mooncycle = 1;
+        var mooncycle = 29.530589;
+        pastdate = new Date(pastyear, pastmonth, pastday, 0, 0, 0);
+        nowdate = new Date();
+        resultdays = (Date.parse(nowdate) - Date.parse(pastdate)) / 1000 / 60 / 60 / 24;
+        moonday = resultdays / mooncycle;
+        moonday = resultdays / mooncycle - Math.floor(resultdays / mooncycle);
+        moonday = Math.round(mooncycle * moonday);
+        document.write('<img width="64" height="64" src="{{ site.baseurl }}/images/moon-phase/moon' + moonday + '.png" alt="Pha mặt trăng" title="Pha mặt trăng đêm nay." \/>');
+    </script>
+</div>
+<div id="earthwrapper"><div id="earth"></div></div>
+<div class="text-white alt-font font-weight-500 margin-20px-top d-inline-block text-medium">Pha mặt trăng đêm nay</div>
