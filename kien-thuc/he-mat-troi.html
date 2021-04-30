@@ -3,8 +3,6 @@ layout: page
 permalink: /kien-thuc/he-mat-troi/
 title: Hệ mặt trời
 ---
-
-{% assign postsByYearMonth = site.categories.Nam-2022 | group_by_exp:"post", "post.date | date: '%m'"  %}
 <!-- start section --> 
 <section class="bg-dark padding-eleven-lr xl-padding-two-lr xs-no-padding-lr">
     <div class="container-fluid">
@@ -17,33 +15,29 @@ title: Hệ mặt trời
         </div>
         <div class="row">
             <div class="col-12 blog-content">
-                {% for yearMonth in postsByYearMonth reversed %}
-                <h5 class="alt-font padding-1-rem-lr padding-2-rem-tb font-weight-600 text-large text-white text-uppercase margin-5px-bottom letter-spacing-minus-1px">
-                    Tháng {{ yearMonth.name }}
-                </h5>
                 <ul class="blog-grid blog-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
                     <li class="grid-sizer"></li>
                     <!-- start blog item -->
-                    {% for post in yearMonth.items reversed %}
+                    {% for post in site.categories.Kien-thuc reversed %}
+                        {% if post.categories contains "He-mat-troi" %}
                         <li class="grid-item wow animate__fadeIn">
                             <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
                                 <div class="blog-post-image bg-medium-slate-blue">
                                     <a href="{{ post.url }}" title="{{ post.title }}">
-                                        <img src="{{ site.baseurl }}/images/lich-thien-van/post/{{ post.image }}.jpg" alt="">
+                                        <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/{{ post.image }}.jpg" alt="">
                                     </a>
-                                    <a href="{{ post.url }}" class="blog-category alt-font font-weight-600">Ngày {{ post.thoigian }}/{{ post.date | date: "%m" }}</a>
                                 </div>
-                                <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black">
-                                    <a href="{{ post.url }}" title="{{ post.title }}" class="alt-font font-weight-600 text-extra-medium text-white post_title">
+                                <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black text-center">
+                                    <a href="{{ post.url }}" title="{{ post.title }}" class="alt-font font-weight-600 text-extra-medium text-very-light-white-transparent">
                                         {{ post.title }}
                                     </a>
                                 </div>
                             </div>
                         </li>
+                        {% endif %}
                     {% endfor %}
                     <!-- end blog item -->
                 </ul>
-                {% endfor %}
             </div>
         </div>
     </div>

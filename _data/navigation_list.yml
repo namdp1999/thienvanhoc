@@ -6,30 +6,30 @@ lichthienvan:
       - page: Năm 2022
         url: /lich-thien-van/nam-2022/
         image: 2022.webm
-      - page: Năm 2023
-        url: /lich-thien-van/nam-2023/
-        image: 2023.webm
-      - page: Năm 2024
-        url: /lich-thien-van/nam-2024/
-        image: 2024.webm
-      - page: Năm 2025
-        url: /lich-thien-van/nam-2025/
-        image: 2025.webm
-      - page: Năm 2026
-        url: /lich-thien-van/nam-2026/
-        image: 2026.webm
-      - page: Năm 2027
-        url: /lich-thien-van/nam-2027/
-        image: 2027.webm
-      - page: Năm 2028
-        url: /lich-thien-van/nam-2028/
-        image: 2028.webm
-      - page: Năm 2029
-        url: /lich-thien-van/nam-2029/
-        image: 2029.webm
-      - page: Năm 2030
-        url: /lich-thien-van/nam-2030/
-        image: 2030.webm
+      # - page: Năm 2023
+      #   url: /lich-thien-van/nam-2023/
+      #   image: 2023.webm
+      # - page: Năm 2024
+      #   url: /lich-thien-van/nam-2024/
+      #   image: 2024.webm
+      # - page: Năm 2025
+      #   url: /lich-thien-van/nam-2025/
+      #   image: 2025.webm
+      # - page: Năm 2026
+      #   url: /lich-thien-van/nam-2026/
+      #   image: 2026.webm
+      # - page: Năm 2027
+      #   url: /lich-thien-van/nam-2027/
+      #   image: 2027.webm
+      # - page: Năm 2028
+      #   url: /lich-thien-van/nam-2028/
+      #   image: 2028.webm
+      # - page: Năm 2029
+      #   url: /lich-thien-van/nam-2029/
+      #   image: 2029.webm
+      # - page: Năm 2030
+      #   url: /lich-thien-van/nam-2030/
+      #   image: 2030.webm
 kienthuc:
   - title: Kiến thức
     url: /kien-thuc/
@@ -46,11 +46,11 @@ kienthuc:
       - page: Tinh vân
         url: /kien-thuc/tinh-van/
         image: tinh-van.webm
-tintuc:
-  - title: Tin tức
-    url: /tin-tuc/
-    subfolderitems:
-      - page: Tin tức mới
-        url: /tin-tuc-moi/
-      - page: Tin Nasa
-        url: /tin-nasa/
+# tintuc:
+#   - title: Tin tức
+#     url: /tin-tuc/
+#     subfolderitems:
+#       - page: Tin tức mới
+#         url: /tin-tuc-moi/
+#       - page: Tin Nasa
+#         url: /tin-nasa/
