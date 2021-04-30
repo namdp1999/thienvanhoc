@@ -18,7 +18,10 @@ title: Lịch thiên văn
           {% for entry in item.subfolderitems %}
           <div class="col interactive-banners-style-01 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
               <div class="interactive-banners-image border-radius-6px bg-dark-slate-blue">
-                  <img src="{{ site.baseurl }}/images/lich-thien-van/category/{{ entry.image | escape }}" class="scale" alt="" />
+                  <!-- <img src="{{ site.baseurl }}/images/lich-thien-van/category/{{ entry.image | escape }}" class="scale" alt="" /> -->
+                  <video  class="scale" autoplay muted loop>
+                    <source src="{{ site.baseurl }}/images/lich-thien-van/category/{{ entry.image | escape }}">
+                  </video>                  
                   <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                       <div class="d-table h-100 w-100">
                           <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
