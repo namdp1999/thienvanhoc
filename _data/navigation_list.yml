@@ -36,16 +36,16 @@ kienthuc:
     subfolderitems:
       - page: Hệ mặt trời
         url: /kien-thuc/he-mat-troi/
-        image: he-mat-troi.gif
+        image: he-mat-troi.webm
       - page: Ngôi sao
         url: /kien-thuc/ngoi-sao/
-        image: ngoi-sao.gif
+        image: ngoi-sao.webm
       - page: Thiên hà
         url: /kien-thuc/thien-ha/
-        image: thien-ha.gif
+        image: thien-ha.webm
       - page: Tinh vân
         url: /kien-thuc/tinh-van/
-        image: tinh-van.gif
+        image: tinh-van.webm
 tintuc:
   - title: Tin tức
     url: /tin-tuc/
