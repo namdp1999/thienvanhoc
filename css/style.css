@@ -10280,7 +10280,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 header .navbar .navbar-brand img,
 header .sidebar-nav-menu .navbar-brand img,
 header.side-menu .logo img {
-  max-height: 36px;
+  /* max-height: 36px; */
 }
 header .navbar .navbar-brand .default-logo,
 header .sidebar-nav-menu .navbar-brand .default-logo,
@@ -18121,7 +18121,7 @@ aside .instafeed-grid.gutter-double-extra-large {
   transform: translate(35px, 5px);
 }
 footer .footer-logo img {
-  max-height: 36px;
+  /* max-height: 36px; */
 }
 footer ul {
   padding-left: 0;

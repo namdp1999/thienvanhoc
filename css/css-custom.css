@@ -60,7 +60,7 @@ a:focus, a:hover {
 
 @media (max-width: 991px) {
     .navbar.bg-transparent {
-        background-color: #343a40!important;
+        background-color: #000!important;
     }
 
     .navbar.navbar-dark.bg-transparent .navbar-nav .nav-link {
@@ -81,5 +81,13 @@ a:focus, a:hover {
 
     .navbar.navbar-dark .navbar-nav>.nav-item.dropdown.simple-dropdown:hover>a {
         color: #fff!important;
+    }
+
+    .sticky .navbar.header-dark .navbar-nav .nav-link {
+        color: #fff!important;
+    }
+
+    .navbar.bg-transparent {
+        background-color: #000000!important;
     }
 }
