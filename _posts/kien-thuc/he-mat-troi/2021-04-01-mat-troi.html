@@ -4,7 +4,7 @@ title: "Mặt Trời"
 date:   01-04-2021
 categories: [Kien-thuc, He-mat-troi]
 image: mat-troi
-modal: mat-troi
+model: mat-troi
 ---
 <div class="know_detail">
     <div class="container">
@@ -22,7 +22,7 @@ modal: mat-troi
                         <model-viewer ar background-color='black' camera-controls camera-orbit='0deg 75deg 120%' controls exposure='1' id='mbmv' interaction-prompt-threshold='1000'
                           preload reveal='auto' shadow-intensity='1'
                           shadow-softness='0'
-                          src='https://namgd.com/projects/thienvanhoc/planet-3d-model/2352_Sun_1_1391000.glb'>
+                          src='{{ site.baseurl }}/app/planet-3d-model/model/{{ page.model | escape }}.glb'>
                           <div class="fullscreen model-viewer-box" data-toggle-fullscreen=""></div>
                         </model-viewer>
                     </div>
