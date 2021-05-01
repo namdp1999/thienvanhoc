@@ -51,6 +51,90 @@
         </section>
         <!-- Slide Main End -->
 
+        <!-- Các hành tinh trong Hệ Mặt Trời --> 
+        <section class="bg-dark padding-eleven-lr xl-padding-two-lr xs-no-padding-lr">
+            <div class="container-fluid">
+                <div class="row margin-3-rem-bottom md-margin-2-rem-bottom align-items-center">
+                    <div class="col-12 col-lg-12 col-md-12 text-center sm-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
+                        <h5 class="alt-font font-weight-600 text-white text-uppercase margin-5px-bottom letter-spacing-minus-1px">
+                            Các hành tinh trong Hệ Mặt Trời
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 blog-content">
+                        <ul class="blog-grid blog-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
+                            <li class="grid-sizer"></li>
+                            <!-- start blog item -->
+                            {% for post in site.categories.Kien-thuc reversed %}
+                                {% if post.categories contains "Hanh-tinh" %}
+                                <li class="grid-item wow animate__fadeIn">
+                                    <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
+                                        <div class="blog-post-image bg-medium-slate-blue">
+                                            <a href="{{ post.url }}" title="{{ post.title }}">
+                                                <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/{{ post.image }}.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black text-center">
+                                            <a href="{{ post.url }}" title="{{ post.title }}" class="alt-font font-weight-600 text-extra-medium text-very-light-white-transparent">
+                                                {{ post.title }}
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                            {% endfor %}
+                            <!-- end blog item -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hết Các hành tinh trong Hệ Mặt Trời -->
+
+        <!-- Lịch thiên văn -->
+        <!-- start section --> 
+        <section class="bg-dark padding-eleven-lr xl-padding-two-lr xs-no-padding-lr pt-0">
+            <div class="container-fluid">
+                <div class="row margin-3-rem-bottom md-margin-2-rem-bottom align-items-center">
+                    <div class="col-12 col-lg-12 col-md-12 text-center sm-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
+                        <h5 class="alt-font font-weight-600 text-white text-uppercase margin-5px-bottom letter-spacing-minus-1px">
+                            Lịch Thiên Văn Tháng 01/2022
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 blog-content">
+                        <ul class="blog-grid blog-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
+                            <li class="grid-sizer"></li>
+                            <!-- start blog item -->
+                            {% for post in site.categories.Lich-thien-van reversed %}
+                                {% if post.categories contains "Nam-2022" and post.categories contains "Thang-1" %}
+                                <li class="grid-item wow animate__fadeIn">
+                                    <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
+                                        <div class="blog-post-image bg-medium-slate-blue">
+                                            <a href="{{ post.url }}" title="{{ post.title }}">
+                                                <img src="{{ site.baseurl }}/images/lich-thien-van/post/{{ post.image }}.webp" alt="">
+                                            </a>
+                                            <a href="{{ post.url }}" class="blog-category alt-font font-weight-600">Ngày {{ post.thoigian }}/{{ post.date | date: "%m" }}</a>
+                                        </div>
+                                        <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black">
+                                            <a href="{{ post.url }}" title="{{ post.title }}" class="alt-font font-weight-600 text-extra-medium text-white post_title">
+                                                {{ post.title }}
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                            {% endfor %}
+                            <!-- end blog item -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hết Lịch thiên văn --> 
+
         
     </div>
 
