@@ -8,36 +8,36 @@ slidemain:
       - title: Sao Thủy
         description: Sao Thủy là hành tinh nhỏ nhất và gần Mặt Trời nhất trong tám hành tinh thuộc Hệ Mặt Trời, với chu kỳ quỹ đạo bằng 88 ngày Trái Đất. Nhìn từ Trái Đất, hành tinh hiện lên với chu kỳ giao hội trên quỹ đạo bằng xấp xỉ 116 ngày, và nhanh hơn hẳn những hành tinh khác.
         image: sao-thuy.webp
-        url: /kien-thuc/he-mat-troi/sao-thuy/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-thuy/
       - title: Sao Kim
         description: Sao Kim là hành tinh thứ hai trong hệ Mặt Trời, tự quay quanh nó với chu kỳ 224,7 ngày Trái Đất. Xếp sau Mặt Trăng, nó là thiên thể tự nhiên sáng nhất trong bầu trời tối, với cấp sao biểu kiến bằng −4.6, đủ sáng để tạo nên bóng trên mặt nước.
         image: sao-kim.webp
-        url: /kien-thuc/he-mat-troi/sao-kim/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-kim/
       - title: Trái Đất
         description: Trái Đất là hành tinh thứ ba tính từ Mặt Trời, đồng thời cũng là hành tinh lớn nhất trong các hành tinh đất đá của hệ Mặt Trời xét về bán kính, khối lượng và mật độ vật chất.
         image: trai-dat.webp
-        url: /kien-thuc/he-mat-troi/trai-dat/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/trai-dat/
       - title: Mặt Trăng
         description: Mặt Trăng là vệ tinh tự nhiên duy nhất của Trái Đất và là vệ tinh tự nhiên lớn thứ năm trong Hệ Mặt Trời. Khoảng cách trung bình tính từ tâm Trái Đất đến Mặt Trăng là 384.403 km, lớn khoảng 30 lần đường kính Trái Đất. Đường kính Mặt Trăng là 3.474 km, bằng 27% đường kính Trái Đất.
         image: mat-trang.webp
-        url: /kien-thuc/he-mat-troi/mat-trang/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/mat-trang/
       - title: Sao Hỏa
         description: Sao Hỏa là hành tinh thứ tư tính từ Mặt Trời trong Thái Dương Hệ. Nó thường được gọi với tên khác là "Hành tinh Đỏ", do sắt ôxít có mặt rất nhiều trên bề mặt hành tinh làm cho bề mặt nó hiện lên với màu đỏ đặc trưng.
         image: sao-hoa.webp
-        url: /kien-thuc/he-mat-troi/sao-hoa/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-hoa/
       - title: Sao Mộc
         description: Sao Mộc là hành tinh thứ năm tính từ Mặt Trời và là hành tinh lớn nhất trong Hệ Mặt Trời. Nó là hành tinh khí khổng lồ với khối lượng bằng một phần nghìn của Mặt Trời nhưng bằng hai lần rưỡi tổng khối lượng của tất cả các hành tinh khác trong Hệ Mặt Trời cộng lại.
         image: sao-moc.webp
-        url: /kien-thuc/he-mat-troi/sao-moc/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-moc/
       - title: Sao Thổ
         description: Sao Thổ là hành tinh thứ sáu tính theo khoảng cách trung bình từ Mặt Trời và là hành tinh lớn thứ hai về đường kính cũng như khối lượng, sau Sao Mộc trong Hệ Mặt Trời. Sao Thổ là hành tinh khí khổng lồ với bán kính trung bình bằng 9 lần của Trái Đất.
         image: sao-tho.webp
-        url: /kien-thuc/he-mat-troi/sao-tho/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-tho/
       - title: Sao Thiên Vương
         description: Sao Thiên Vương là hành tinh thứ bảy tính từ Mặt Trời; là hành tinh có bán kính lớn thứ ba và có khối lượng lớn thứ tư trong Hệ Mặt Trời. Sao Thiên Vương có thành phần tương tự như Sao Hải Vương. Cả hai có thành phần hóa học khác so với hai hành tinh khí khổng lồ lớn hơn là Sao Mộc và Sao Thổ.
         image: sao-thien-vuong.webp
-        url: /kien-thuc/he-mat-troi/sao-thien-vuong/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-thien-vuong/
       - title: Sao Hải Vương
         description: Sao Hải Vương là hành tinh thứ tám và xa nhất tính từ Mặt Trời trong Hệ Mặt Trời. Nó là hành tinh lớn thứ tư về đường kính và lớn thứ ba về khối lượng. Sao Hải Vương có khối lượng riêng lớn nhất trong số các hành tinh khí trong hệ Mặt trời. Sao Hải Vương có khối lượng gấp 17 lần khối lượng của Trái Đất.
         image: sao-hai-vuong.webp
-        url: /kien-thuc/he-mat-troi/sao-hai-vuong/
+        url: /kien-thuc/he-mat-troi/hanh-tinh/sao-hai-vuong/
