@@ -2,26 +2,6 @@
 layout: default
 ---
 <section class="bg-dark wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 text-center">
-                <h5 class="alt-font font-weight-600 text-white margin-3-rem-bottom md-margin-2-rem-bottom">
-                    {{ page.title | escape }}
-                </h5>
-            </div>
-        </div>
-        <div class="border-radius-6px">
-            <div class="row">
-                <div class="col-12 col-lg-12 margin-30px-bottom">
-                    <img 
-                        src="{{ site.baseurl }}/images/lich-thien-van/post/{{ site.data.calendar_image.calendar_image[10].properties }}" 
-                        alt='Ngày {{ page.thoigian }}/{{ page.date | date: "%m/%Y" }}: {{ page.title | escape }}'
-                        title='Ngày {{ page.thoigian }}/{{ page.date | date: "%m/%Y" }}: {{ page.title | escape }}'
-                        class="w-100 border-radius-6px" 
-                    />
-                </div>
-            </div>
-        </div>
-    </div>
     {{ content }}
 </section>
+<script src='https://unpkg.com/@google/model-viewer@0.8.1/dist/model-viewer.js' type='module'></script>
