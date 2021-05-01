@@ -4,21 +4,55 @@ title: "Sao Thủy"
 date:   02-04-2021
 categories: [Kien-thuc, He-mat-troi]
 image: sao-thuy
-modal: sao-thuy
+model: sao-thuy
 ---
-
-<h5 class="alt-font font-weight-500 text-white margin-4-half-rem-bottom">
-    Ngày {{ page.thoigian }}/{{ page.date | date: "%m/%Y" }}: {{ page.title | escape }}
-</h5>
-<img 
-    src="{{ site.baseurl }}/images/lich-thien-van/post/{{ site.data.calendar_image.calendar_image[10].properties }}" 
-    alt='Ngày {{ page.thoigian }}/{{ page.date | date: "%m/%Y" }}: {{ page.title | escape }}'
-    title='Ngày {{ page.thoigian }}/{{ page.date | date: "%m/%Y" }}: {{ page.title | escape }}'
-    class="w-100 border-radius-6px margin-4-half-rem-bottom" 
-/>
-
-
-<p class="text-white">Quadrantids là một trận mưa sao băng trên mức trung bình, với khoảng 40 sao băng mỗi giờ tại cực điểm. Trận mưa sao băng này được cho là bắt nguồn từ các hạt bụi để lại bởi sao chổi đã “tuyệt chủng” 2003 EH1, được phát hiện năm 2003.</p>
-<p class="text-white">Các sao băng Quadrantids thường xuất hiện từ ngày 01 đến ngày 05 tháng 01 hằng năm. Cực điểm năm nay của Quadrantids rơi vào đêm ngày 03, rạng sáng ngày 04 tháng 01.</p>
-<p class="text-white">Trăng thượng huyền sẽ lặn sớm sau nửa đêm để lại bầu trời đêm tối thuận lợi cho một buổi quan sát mưa sao băng.</p>
-<p class="text-white">Thời gian quan sát tốt nhất là sau nửa đêm tại khu vực tối, thoáng đãng. Các sao băng sẽ bắt nguồn từ chòm sao Bootes, nhưng cũng có thể xuất hiện bất cứ đâu trên bầu trời.</p>
+<div class="know_detail">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h5 class="alt-font font-weight-600 text-white margin-3-rem-bottom md-margin-2-rem-bottom">
+                    {{ page.title | escape }}
+                </h5>
+            </div>
+        </div>
+        <div class="border-radius-6px">
+            <div class="row">
+                <div class="col-12 col-lg-8 margin-30px-bottom">
+                    <div class='model-viewer-container'>
+                        <model-viewer ar background-color='black' camera-controls camera-orbit='0deg 75deg 120%' controls exposure='1' id='mbmv' interaction-prompt-threshold='1000'
+                          preload reveal='auto' shadow-intensity='1'
+                          shadow-softness='0'
+                          src='{{ site.baseurl }}/app/planet-3d-model/model/{{ page.model | escape }}.glb'>
+                          <div class="fullscreen model-viewer-box" data-toggle-fullscreen=""></div>
+                        </model-viewer>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 margin-30px-bottom">
+                    <div class="bg-black padding-40px-all sm-padding-30px-all last-paragraph-no-margin border-radius-6px text-white h-100">
+                        <h6 class="alt-font font-weight-600">
+                            {{ page.title | escape }}
+                        </h6>
+                        <p><strong>Khoảng cách từ Mặt trời: </strong>57.910.000 km</p>
+                        <p><strong>Kinh độ của điểm nút lên: </strong>48,331°</p>
+                        <p><strong>Vệ tinh tự nhiên: </strong>không có</p>
+                        <p><strong>Áp suất khí quyển bề mặt: </strong>rất nhỏ</p>
+                        <p><strong>Hấp dẫn bề mặt: </strong>3,7 m/s2; 0,38 g;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12">
+                <div class="bg-black padding-40px-all sm-padding-30px-all last-paragraph-no-margin border-radius-6px text-white">
+                    <p>Sao Thủy là hành tinh nhỏ nhất và gần Mặt Trời nhất trong tám hành tinh thuộc Hệ Mặt Trời, với chu kỳ quỹ đạo bằng 88 ngày Trái Đất. Nhìn từ Trái Đất, hành tinh hiện lên với chu kỳ giao hội trên quỹ đạo bằng xấp xỉ 116 ngày, và nhanh hơn hẳn những hành tinh khác. Tốc độ chuyển động nhanh này đã khiến người La Mã đặt tên hành tinh là Mercurius, vị thần liên lạc và đưa tin một cách nhanh chóng. Trong thần thoại Hy Lạp tên của vị thần này là Hermes (Ερμής). Tên tiếng Việt của hành tinh này dựa theo tên do Trung Quốc đặt, chọn theo hành thủy trong ngũ hành.</p>
+                    <p>Do hành tinh hầu như không có khí quyển để giữ lại nhiệt lượng, bề mặt Sao Thủy trải qua sự biến đổi nhiệt độ lớn nhất trong số các hành tinh, thay đổi từ 100 K (−173 °C; −280 °F) vào ban đêm tới 700 K (427 °C; 800 °F) vào ban ngày. Trục quay của Sao Thủy có độ nghiêng nhỏ nhất trong Hệ Mặt Trời (khoảng 1⁄30 độ), nhưng hành tinh lại có độ lệch tâm quỹ đạo lớn nhất. Tại viễn điểm quỹ đạo, Sao Thủy ở cách xa Mặt Trời hơn 1,5 lần khi so với hành tinh ở cận điểm quỹ đạo. Bề mặt hành tinh có rất nhiều hố va chạm nhìn trông giống như bề mặt của Mặt Trăng, và hành tinh không còn hoạt động địa chất trong hàng tỷ năm trước.</p>
+                    <p>Trên Sao Thủy không có sự biến đổi thời tiết theo mùa như ở các hành tinh khác bởi vì nó không có bầu khí quyển đáng kể. Hành tinh bị khóa thủy triều với Mặt Trời do đó nó quay trên quỹ đạo rất khác so với các hành tinh khác. Khi lấy các ngôi sao cố định làm điểm mốc, nó tự quay được chính xác ba vòng trong hai chu kỳ quỹ đạo quanh Mặt Trời. Khi nhìn từ Mặt Trời, trong hệ quy chiếu quay cùng với chuyển động quỹ đạo, hành tinh hiện lên chỉ quay quanh trục một lần trong hai "năm" Sao Thủy. Do vậy nếu có người đứng trên Sao Thủy họ chỉ nhận thấy 1 ngày trong 2 năm.</p>
+                    <p>Bởi vì quỹ đạo Thủy Tinh nằm bên trong quỹ đạo Trái Đất (và của Sao Kim), khi nhìn từ Trái Đất hành tinh có lúc hiện lên vào buổi sáng hoặc vào buổi tối, nhưng không bao giờ có thể nhìn thấy lúc nửa đêm. Tương tự như Sao Kim và Mặt Trăng, hành tinh cũng có các pha quan sát khi nó di chuyển trên quỹ đạo. Sao Thủy không có một vệ tinh tự nhiên nào. Độ sáng biểu kiến của Sao Thủy thay đổi từ −2,0 đến 5,5; nhưng vì quá gần Mặt Trời nên nếu quan sát hành tinh này qua kính viễn vọng rất khó khăn và ít khi thực hiện được.</p>
+                    <p>Hai phi thuyền đã ghé thăm sao Thủy: Mariner 10 bay vào năm 1974 và 1975; và MESSENGER, được phóng lên vào năm 2004, đã quay quanh sao Thủy hơn 4.000 lần trong vòng bốn năm trước khi cạn kiệt nguồn nhiên liệu và rơi vào bề mặt hành tinh này vào ngày 30 tháng 4 năm 2015.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
