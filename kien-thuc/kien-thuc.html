@@ -9,16 +9,15 @@ title: Kiến thức
   <div class="container">
     {% for item in site.data.navigation_list.kienthuc %}
       <div class="row margin-6-rem-bottom md-margin-5-rem-bottom align-items-center">
-          <div class="col-12 col-lg-12 col-md-12 text-center sm-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
+          <div class="col-12 col-lg-12 col-md-12 text-center sm-margin-10px-bottom">
               <h5 class="alt-font font-weight-600 text-white text-uppercase margin-5px-bottom letter-spacing-minus-1px">{{ item.title | escape }}</h5>
           </div>
       </div>
       <div class="row text-center row-cols-1 row-cols-lg-4 row-cols-sm-2">
           <!-- start interactive banner item -->
           {% for entry in item.subfolderitems %}
-          <div class="col interactive-banners-style-01 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
+          <div class="col interactive-banners-style-01 margin-30px-bottom xs-margin-15px-bottom">
               <div class="interactive-banners-image border-radius-6px bg-dark-slate-blue">
-                  <!-- <img src="{{ site.baseurl }}/images/kien-thuc/category/{{ entry.image | escape }}" class="scale" alt="" /> -->
                   <video  class="scale" autoplay muted loop>
                     <source src="{{ site.baseurl }}/images/kien-thuc/category/{{ entry.image | escape }}">
                   </video> 
