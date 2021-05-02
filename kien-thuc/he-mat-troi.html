@@ -108,7 +108,7 @@ title: Hệ Mặt Trời
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="swiper-container text-center" data-slider-options='{ "slidesPerView": 1, "loop": false, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 3 } } }'>
+                <div class="swiper-container text-center" data-slider-options='{ "slidesPerView": 1, "loop": true, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 3 } } }'>
                     <div class="swiper-wrapper">
                         {% for post in site.categories.Kien-thuc reversed %}
                         {% if post.categories contains "He-mat-troi" and post.categories contains "Hanh-tinh-lun" %}
