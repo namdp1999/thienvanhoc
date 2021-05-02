@@ -112,6 +112,10 @@ a:focus, a:hover {
         font-size: 50px;
         line-height: 60px;
     }
+
+    .navbar.navbar-dark .nav-bar-contact {
+        color: #fff!important;
+    }
 }
 
 @media (max-width: 320px) {
