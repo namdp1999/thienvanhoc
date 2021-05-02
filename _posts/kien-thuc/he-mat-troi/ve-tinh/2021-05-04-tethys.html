@@ -1,0 +1,57 @@
+---
+layout: know_detail
+title: "Tethys"
+satellite-of: "Sao Thổ"
+date:   04-05-2021 00:00:03
+categories: [Kien-thuc, He-mat-troi, Ve-tinh]
+image: tethys
+model: tethys
+---
+<div class="know_detail">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h5 class="alt-font font-weight-600 text-white margin-3-rem-bottom md-margin-2-rem-bottom">
+                    {{ page.title | escape }} ({{ page.satellite-of | escape }})
+                </h5>
+            </div>
+        </div>
+        <div class="border-radius-6px">
+            <div class="row">
+                <div class="col-12 col-lg-8 margin-30px-bottom">
+                    <div class='model-viewer-container'>
+                        <model-viewer ar background-color='black' camera-controls camera-orbit='0deg 75deg 120%' controls exposure='1' id='mbmv' interaction-prompt-threshold='1000'
+                          preload reveal='auto' shadow-intensity='1'
+                          shadow-softness='0'
+                          src='{{ site.baseurl }}/app/planet-3d-model/model/{{ page.model | escape }}.glb'>
+                          <div class="fullscreen model-viewer-box" data-toggle-fullscreen=""></div>
+                        </model-viewer>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 margin-30px-bottom">
+                    <div class="bg-black padding-40px-all sm-padding-30px-all last-paragraph-no-margin border-radius-6px text-white h-100">
+                        <h6 class="alt-font font-weight-600">
+                            {{ page.title | escape }}
+                        </h6>
+                        <p><strong>Bán kính: </strong>531 km</p>
+                        <p><strong>Trọng lực: </strong>0,145 m/s²</p>
+                        <p><strong>Khoảng cách tới Trái đất: </strong>1,272E9 km</p>
+                        <p><strong>Chu kỳ quay: </strong>45 giờ</p>
+                        <p><strong>Quỹ đạo: </strong>Sao Thổ</p>
+                        <p><strong>Người khám phá: </strong>Giovanni Domenico Cassini</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12">
+                <div class="bg-black padding-40px-all sm-padding-30px-all last-paragraph-no-margin border-radius-6px text-white">
+                    <p>Tethys là một trong 4 vệ tinh được nhà thiên văn học Giovanni Domenico Cassini phát hiện vào năm 1684. Tethys là một trong 7 vệ tinh lớn của Sao Thổ (đủ lớn để lực cân bằng thủy tĩnh khiến cho thiên thể có hình cầu hoặc gần cầu).</p>
+                    <p>Tethys được đặt theo tên gọi thần khổng lồ Titan trong Thần thoại Hy Lạp, một vị nữ thần biển. Ngoài ra nó còn có tên gọi là Saturn III (Sao Thổ III) hoặc là S III Tethys.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
