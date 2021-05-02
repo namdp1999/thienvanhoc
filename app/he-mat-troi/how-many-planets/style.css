@@ -1,0 +1,187 @@
+#controls {
+	width: 100%;
+	margin-top: 1em;
+	color: #fff;
+}
+
+#controls .padder {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#controls .label_a {
+	float: left;
+	margin-left: -4em;
+	text-align: right;
+	width: 3em;
+	margin-top: -8px;
+}
+
+#controls .label_b {
+	float: right;
+	margin-right: -4em;
+	width: 3em;
+	margin-top: -8px;
+}
+
+#controls .rangelabel {
+	float: left;
+	width: 10em;
+	margin-top: -2px;
+}
+
+#controls .range {
+	margin-left: 3.5em;
+	margin-right: 3.5em;
+}
+
+#controls .rangelabel+.range {
+	margin-left: 10em;
+}
+
+@media only screen and (max-width: 700px) {
+	.padded {
+		margin: 0.5em;
+	}
+}
+
+#info {
+	max-width: 700px;
+	margin: auto;
+}
+
+#output {
+	margin-top: 1em;
+	text-align: center;
+	color: #fff;
+}
+
+.count {
+	font-size: 10em;
+	font-weight: bold;
+	height: 100px;
+	margin-top: 50px;
+}
+
+#planets {
+	position: relative;
+	display: block;
+	text-align: center;
+	/* vertical-align: bottom; */
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-size: 1.4em;
+}
+
+.planet {
+	padding-right: 1em;
+	margin-top: 1em;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	height: 5em;
+	display: inline-block;
+	color: #fff;
+}
+
+.planet .disc {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	background: #7465ab;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	z-index: 1;
+	margin-top: -0.5em;
+	margin-left: -0.5em;
+	font-size: 1em;
+	filter: alpha(opacity=30);
+	/* IE */
+	-moz-opacity: 0.3;
+	/* Mozilla */
+	opacity: 0.3;
+}
+
+.planet .label {
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	font-size: 0.6em;
+	padding: 0.25em;
+	margin-top: -1.5em;
+	margin-left: -0.25em;
+	word-break: initial;
+}
+
+.Sun .disc {
+	font-size: 10em;
+	background-color: #ffcb06;
+}
+
+.Mercury .disc {
+	font-size: 1em;
+	background-color: #f18500;
+}
+
+.Venus .disc {
+	font-size: 1.8em;
+	background-color: #22a1d3;
+}
+
+.Earth .disc {
+	font-size: 2em;
+	background-color: #229838;
+}
+
+.Moon .disc {
+	font-size: 1em;
+	background-color: #999999;
+}
+
+.Mars .disc {
+	font-size: 1em;
+	background-color: #e63322;
+}
+
+.Jupiter .disc {
+	font-size: 5em;
+	background-color: #c2c700;
+}
+
+.Saturn .disc {
+	font-size: 4.2em;
+	background-color: #b91b5f;
+}
+
+.Uranus .disc {
+	font-size: 3em;
+	background-color: #7465ab;
+}
+
+.Neptune .disc {
+	font-size: 3em;
+	background-color: #62b6ac;
+}
+
+.Pluto .disc {
+	font-size: 0.8em;
+	background-color: #7465ab;
+}
+
+#info {
+	height: 4em;
+	margin-bottom: 1em;
+	color: #fff;
+}
+
+@media (max-width: 500px),
+(max-device-width: 500px) {
+	#info {
+		height: auto;
+		max-width: 90%;
+		margin: auto;
+	}
+}
