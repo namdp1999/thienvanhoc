@@ -135,6 +135,52 @@
         </section>
         <!-- Hết Lịch thiên văn --> 
 
+        <!-- Các vệ tinh tự nhiên -->
+        <section class="bg-dark padding-eleven-lr xl-padding-two-lr xs-no-padding-lr">
+            <div class="container">
+                <div class="row margin-3-rem-bottom md-margin-2-rem-bottom align-items-center">
+                    <div class="col-12 col-lg-12 col-md-12 text-center sm-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
+                        <h5 class="alt-font font-weight-600 text-white text-uppercase margin-5px-bottom letter-spacing-minus-1px">
+                        Các vệ tinh tự nhiên
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper-container text-center" data-slider-options='{ "slidesPerView": 1, "loop": true, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 3 } } }'>
+                            <div class="swiper-wrapper">
+                                {% for post in site.categories.Kien-thuc reversed %}
+                                    {% if post.categories contains "Ve-tinh" %}
+                                    <div class="swiper-slide padding-2-rem-lr">
+                                        <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
+                                            <div class="blog-post-image bg-medium-slate-blue">
+                                                <a href="{{ post.url }}" title="{{ post.title }}">
+                                                    <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/ve-tinh/{{ post.image }}.webp" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black text-center">
+                                                <a href="{{ post.url }}" title="{{ post.title }}" class="alt-font font-weight-600 text-extra-medium text-very-light-white-transparent">
+                                                    {{ post.title }}
+                                                    <br />
+                                                    ({{ post.satellite-of }})
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <!-- start slider navigation -->
+                        <div class="swiper-button-next-nav swiper-button-next rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i class="feather icon-feather-arrow-right"></i></div>
+                        <div class="swiper-button-previous-nav swiper-button-prev rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i class="feather icon-feather-arrow-left"></i></div>
+                        <!-- end slider navigation -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hết phần Các vệ tinh tự nhiên -->
+
         
     </div>
 
