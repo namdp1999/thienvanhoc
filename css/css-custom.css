@@ -107,6 +107,11 @@ a:focus, a:hover {
     .navbar.bg-transparent {
         background-color: #000000!important;
     }
+
+    .title-large {
+        font-size: 50px;
+        line-height: 60px;
+    }
 }
 
 @media (max-width: 320px) {
