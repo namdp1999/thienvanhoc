@@ -108,3 +108,9 @@ a:focus, a:hover {
         background-color: #000000!important;
     }
 }
+
+@media (max-width: 320px) {
+    header .navbar .navbar-brand img {
+        max-height: 36px;
+    }
+}

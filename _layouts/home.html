@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {%- include head.html -%}
-
   <body>
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent border-bottom border-color-white-transparent header-dark fixed-top navbar-boxed header-reverse-scroll">
             {%- include header-menu.html -%}
         </nav>
     </header>
-
     <div class="main-content">
         <!-- Slide Main -->
         <section class="p-0" >
             <div class="container-fluid position-relative">
                 <div class="row">
-                    <div class="swiper-container white-move full-screen md-h-650px sm-h-500px" data-slider-options='{ "slidesPerView": 1, "loop": true, "autoplay": { "delay": 4500, "disableOnInteraction": false },  "pagination": { "el": ".swiper-pagination", "clickable": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+                    <div class="swiper-container white-move full-screen md-h-650px sm-h-650px" data-slider-options='{ "slidesPerView": 1, "loop": true, "autoplay": { "delay": 4500, "disableOnInteraction": false },  "pagination": { "el": ".swiper-pagination", "clickable": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
                         <div class="swiper-wrapper">
                             <!-- start slider item -->
                             {% for item in site.data.slide_main.slidemain %}
@@ -25,11 +21,9 @@
                                         <div class="container h-100">
                                             <div class="row justify-content-start h-100">
                                                 <div class="col-12 col-xl-6 col-sm-7 d-flex flex-column justify-content-center text-center h-100">
-                                                    
                                                     <h1 class="alt-font font-weight-800 title-large text-white text-uppercase letter-spacing-minus-4px margin-45px-bottom sm-letter-spacing-minus-1px sm-margin-30px-bottom text-shadow-large sm-no-text-shadow xs-w-90 mx-auto">{{ slide.title | escape }}</h1>
                                                     <span class="alt-font font-weight-500 text-extra-medium letter-spacing-2px text-white d-block margin-35px-bottom sm-margin-15px-bottom">{{ slide.description | escape }}</span>
                                                     <a href="{{ slide.url | relative_url }}" class="btn btn-fancy btn-large btn-dark-gray btn-box-shadow align-self-center">Xem Chi Tiết</a>
-
                                                 </div>
                                             </div>
                                         </div>
@@ -181,10 +175,7 @@
         </section>
         <!-- Hết phần Các vệ tinh tự nhiên -->
 
-        
     </div>
-
     {%- include footer.html -%}
-    
   </body>
 </html>
