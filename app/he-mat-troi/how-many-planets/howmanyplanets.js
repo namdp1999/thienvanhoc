@@ -523,9 +523,9 @@ $(document).ready(function () {
       if (year >= data[i].year) break;
     }
     var output =
-      "Năm " +
+      "Số lượng hành tinh năm " +
       year +
-      ' đã có<div class="count">' +
+      ' là:<div class="count">' +
       data[i].planets.count +
       "</div>";
     //if(data[i].dwarf.count > 0) output += ' and <div class="count">'+data[i].dwarf.count+'<\/div> dwarf planets';
