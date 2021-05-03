@@ -525,3 +525,20 @@ img, img a {
 	color: #D9F5FF;
 	padding-left: 200px;
 }
+
+@media (max-width: 1024px) {
+	#titlecard {
+		width: 50vh;
+	}
+
+	#titlecard img {
+		width: 100%;
+	}
+
+	.scalewrap img {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		top: 10%;
+	}
+}

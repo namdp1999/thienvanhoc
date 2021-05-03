@@ -90,6 +90,21 @@ a:focus, a:hover {
 }
 /* 3d-model end */
 
+/* open new tab */
+.open-new-tab {
+    background: #FEC369;
+    color: #000!important;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.open-new-tab i {
+    font-weight: 600;
+    margin-right: 10px;
+}
+/* end open new tab */
+
 @media (max-width: 991px) {
     .navbar.bg-transparent {
         background-color: #000!important;
