@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title id="pgtitle">Nếu Mặt Trăng chỉ to bằng 1 điểm ảnh - Bản đồ cực kỳ chính xác về hệ Mặt Trời</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="introwrap">
+            <div id="navblocker" style="top: 0px;"></div>
+
+            <div id="titlecard">
+                <img src="img/maintitle-vi.svg" id="titleimg" />
+            </div>
+
+            <div class="scalewrap"><img src="img/scale-vi.svg" id="scaleimg" /></div>
+        </div>
+
+        <div id="bigspace">
+            <div class="planetwrapper">
+                <!-- Sun-->
+                <div id="sunwrap">
+                    <svg version="1.1" id="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                        <circle cx="5" cy="5" r="5"></circle>
+                    </svg>
+                    <div id="suntxt" class="labeltext">
+                        Mặt Trời
+                    </div>
+                </div>
+
+                <!-- Mercury-->
+
+                <svg version="1.1" id="mercury" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="merctxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="merclabel">Sao Thủy</span><br />
+                </div>
+
+                <!-- Venus-->
+                <svg version="1.1" id="venus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="venustxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="venuslabel">Sao Kim</span>
+                </div>
+
+                <!-- Earth-->
+                <svg version="1.1" id="earth" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="earthtxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="earthlabel">Trái Đất</span><br />
+                    <div id="you-are-here" style="font-size: 0.3em; color: #737373;">(Bạn đang ở đây)</div>
+                </div>
+
+                <!-- Moon-->
+                <div id="moontxt" class="labeltext">
+                    <span id="moonlabel">Mặt Trăng</span><br />
+                    <img src="img/arrow2.svg" />
+                </div>
+                <svg version="1.1" id="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+
+                <!-- Mars-->
+                <svg version="1.1" id="mars" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="marstxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="marslabel">Sao Hỏa</span>
+                </div>
+
+                <!-- Jupiter-->
+                <svg version="1.1" id="jupiter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="jupitertxt" class="labeltext">
+                    <img src="img/arrow.svg" style="margin-left: 15px;" /><br />
+                    <span id="jupiterlabel">Sao Mộc</span>
+                </div>
+                <!--Jupiter Moons -->
+                <div id="jupitermoons" class="labeltext">
+                    <span id="io"><img src="img/moondot.png" height="1px" width="1px" class="moondot" /><span id="iolabel">Io</span></span>
+                    <span id="europa"><img src="img/moondot.png" height="1px" width="1px" class="moondot" /><span id="europalabel">Europa</span></span>
+                    <span id="ganymede"><img src="img/moondot.png" height="2px" width="2px" class="moondot" /><span id="ganymedelabel">Ganymede</span></span>
+                    <span id="callisto"><img src="img/moondot.png" height="1px" width="1px" class="moondot" /><span id="callistolabel">Callisto</span></span>
+                </div>
+
+                <!-- Saturn-->
+                <img src="img/saturn.svg" id="saturn" /><br />
+                <div id="saturntxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="saturnlabel">Sao Thổ</span>
+                </div>
+
+                <!--Titan  -->
+                <div id="saturnmoons" class="labeltext">
+                    <span id="titan"><img src="img/moondot.png" height="1px" width="1px" class="moondot" /><span id="titanlabel">Titan</span></span>
+                </div>
+
+                <!-- Uranus -->
+                <svg version="1.1" id="uranus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="uranustxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="uranuslabel">Sao Thiên Vương</span>
+                </div>
+
+                <!-- Neptune -->
+                <svg version="1.1" id="neptune" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="neptunetxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="neptunelabel">Sao Hải Vương</span>
+                </div>
+
+                <!-- Pluto -->
+                <svg version="1.1" id="pluto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10">
+                    <circle cx="5" cy="5" r="5"></circle>
+                </svg>
+                <div id="plutotxt" class="labeltext">
+                    <img src="img/arrow.svg" /><br />
+                    <span id="plutolabel">Sao Diêm Vương</span><span style="font-size: 0.25em;"> (Hành tinh lùn)<br /></span>
+                    <span id="we-still-love" style="font-size: 0.25em; text-transform: none;">(Chúng tôi luôn yêu bạn)</span>
+                </div>
+
+                <div id="ten-million-km" class="essay l10n" style="left: 2885px;">Chúng ta vừa đi được 10 triệu km.</div>
+                <div id="pretty-empty" class="essay" style="left: 8275px;">Ở chỗ này khá là trống rỗng.</div>
+                <div id="here-comes-our" class="essay" style="left: 13666px;">Và đây là hành tinh đầu tiên của chúng ta.</div>
+                <div id="as-it-turns" class="essay" style="left: 20666px;">Có vẻ rõ ràng là những thứ này cách nhau thật xa.</div>
+                <div id="well-be-coming" class="essay" style="left: 26666px;">Chúng ta sắp đến một hành tinh mới. Bám chặt nhé.</div>
+                <div id="most-of-space" class="essay" style="left: 33666px;">Phần lớn không gian, chính là khoảng không.</div>
+                <div id="halfway-home" class="essay" style="left: 37100px;">Nửa đường về nhà.</div>
+                <div id="destination-mars" class="essay" style="left: 48200px;">Điểm đến: Sao Hỏa!</div>
+                <div class="essay" style="left: 55100px;">
+                    <span id="it-would-take">Chúng ta sẽ cần khoảng bảy tháng để du hành qua khoảng cách này trên một con tàu vũ trụ. </span><span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="better-be-some">Nên là có vài món đồ tiêu khiển trên chuyến bay này.</span> <span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="in-case-youre">Trong trường hợp bạn thắc mắc, thì bạn cần 2000 bộ phim để giết thời gian lúc bạn thức.</span>
+                </div>
+                <div id="sit-back-and" class="essay" style="left: 67100px;">Hãy ngồi xuống và thư giãn. Sao Mộc xa hơn gấp 3 lần khoảng cách chúng ta vừa đi.</div>
+                <div id="when-are-we" class="essay" style="left: 80038px;">Khi nào chúng ta sẽ đến nơi?</div>
+                <div id="seriously-when-are" class="essay" style="left: 100038px;">Nghiêm túc đấy. Khi nào chúng ta sẽ đến nơi?</div>
+                <div class="essay" style="left: 120038px;">
+                    <span id="this-is-where">Đây là nơi mà ít ra có một vài tiểu hành tinh để chúng ta dậy ngắm. </span><span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="too-bad-theyre">Thật tệ là chúng quá bé để nhìn thấy được trên bản đồ này.</span>
+                </div>
+                <div id="i-spy-with" class="essay" style="left: 130000px;">Ở bên trái bạn… màu đen. Ở bên phải bạn… màu đen.</div>
+                <div id="if-you-were" class="essay" style="left: 140000px;">Nếu bạn đang lái xe với tốc độ 120 km/h, bạn sẽ cần 500 năm để đi từ Trái Đất đến đây.</div>
+                <div class="essay" style="left: 170000px;">
+                    <span id="all-these-distances">Nên nhớ, những khoảng cách này chỉ là nói một cách trung bình.</span> <span style="margin-left: 200px;">&nbsp;</span>
+                    <span id="the-distance-between">Khoảng cách thực sự giữa những hành tinh phụ thuộc vào chúng ở nơi nào trên quỹ đạo quay quanh Mặt Trời của chúng.</span><span style="margin-left: 200px;">&nbsp;</span>
+                    <span id="so-if-youre">Vậy nên nếu bạn thực sự tính chuyện du hành đến Sao Mộc, có thể bạn sẽ cần một bản đồ khác.</span>
+                </div>
+                <div class="essay" style="left: 180000px;">
+                    <span id="if-you-plan">Nếu bạn lên kế hoạch tốt, bạn có thể di chuyển khá nhanh từ hành tinh này đến hành tinh khác đấy.</span><span style="margin-left: 200px;">&nbsp;</span>
+                    <span id="the-new-horizons">Con tàu New Horizons, được phóng năm 2006, chỉ mất 13 tháng để đến được Sao Mộc.</span><span style="margin-left: 200px;">&nbsp;</span>
+                    <span id="dont-worry-itll">Đừng lo lắng. Sẽ mất ít hơn 13 tháng để cuộn đến đó.</span>
+                </div>
+                <div id="pretty-close-to" class="essay" style="left: 200000px;">Sao Mộc đã ở khá gần.</div>
+                <div id="sorry-that-was" class="essay" style="left: 215000px;">Xin lỗi. Vừa rồi chỉ là nói cuội thôi. Bây giờ chúng ta mới thực sự đến gần.</div>
+                <!-- Jupiter 224041px -->
+                <div id="lots-of-time" class="essay" style="left: 245000px;">Chúng ta có rất nhiều thời gian để suy ngẫm ở nơi này…</div>
+                <div id="pop-the-champagne" class="essay" style="left: 287786px;">Mở Sâm-banh nào! Chúng ta vừa vượt qua 1 tỉ km.</div>
+                <div class="essay" style="left: 305000px;">
+                    <span id="i-guess-this">Tôi nghĩ đây là lý do tại sao hầu hết các bức hình về Hệ Mặt Trời không được vẽ đúng tỉ lệ.</span><span style="margin-left: 100px;">&nbsp;</span><span id="its-not-hard"> Vẽ các hành tinh không có khó. </span>
+                    <span style="margin-left: 100px;">&nbsp;</span><span id="its-the-empty">Các khoảng không trống rỗng mới là vấn đề.</span>
+                </div>
+                <div id="most-space-charts" class="essay" style="left: 322000px;">Hầu hết những sơ đồ về vũ trụ đã bỏ qua phần quan trọng nhất: các khoảng không.</div>
+                <div id="were-used-to" class="essay" style="left: 349000px;">Chúng ta thường quen nắm bắt những thứ có tỉ lệ nhỏ hơn thế này rất nhiều.</div>
+                <div class="essay" style="left: 376000px;">
+                    <span id="when-it-comes">Khi mà phải đề cập đến những thứ như tuổi Trái Đất, số lượng bông tuyết ở Xi-bê-ri, khoản nợ quốc gia…</span><span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="those-things-are">Những thứ đó quá lớn để bộ não chúng ta có thể nắm bắt.</span>
+                </div>
+                <!--Saturn 412397px-->
+                <div id="we-need-to" class="essay" style="left: 430000px;">Chúng ta cần thu nhọ các thứ về mức chúng ta có thể nhìn hoặc trải nghiệm trực tiếp để có thể hiểu chúng.</div>
+                <div id="were-always-trying" class="essay" style="left: 457000px;">Chúng ta luôn thử dùng những phép so sánh, ẩn dụ để diễn tả những con số cực lớn. Kể cả vậy, không phải lúc nào chúng ta cũng thành công.</div>
+                <div id="lets-try-a" class="essay" style="left: 484000px;">Hãy cùng thử làm một vài phép ẩn dụ nào…</div>
+                <div class="essay" style="left: 511000px;">
+                    <span id="you-would-need">Bạn sẽ cần</span> <span id="monitors"></span> <span id="of-these-screens"> màn hình xếp cạnh nhau để thấy toàn bộ bản đồ này.</span><span id="depth"></span>
+                </div>
+                <div class="essay" style="left: 538000px;">
+                    <span id="if-this-map">Nếu bản đồ này được in bằng một máy in tốt (300ppi), thì Trái Đất sẽ gần như vô hình, và tờ giấy sẽ phải rộng 145m.</span>
+                    <span style="margin-left: 200px;">&nbsp;</span><span id="475-feet-is">145m là khoảng gấp rưỡi chiều dài sân bóng đá.</span>
+                </div>
+                <div class="essay" style="left: 565000px;">
+                    <span id="even-though-we">Dù rằng chúng ta không thực sự hiểu, nhưng rất nhiều thứ có thể xảy ra trong những khoảng không gian và thời gian này.</span><span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="a-drop-of">Những giọt nước có thể đẽo gọt nên một khe vực.</span><span style="margin-left: 100px;">&nbsp;</span><span id="an-amoeba-can">Một con trùng a-míp có thể trở thành cá heo.</span>
+                    <span style="margin-left: 100px;">&nbsp;</span><span id="a-star-can">Một ngôi sao có thể chết đi và tự bóp nghẹt lại trong chính nó.</span>
+                </div>
+                <div id="its-easy-to" class="essay" style="left: 592000px;">
+                  Thật dễ để bỏ qua sự hư vô, bởi không có suy nghĩ nào chứa được sự hư vô. Không có phép ẩn dụ nào có thể dùng được, bởi, theo định nghĩa, nếu sự hư vô được nắm, sờ thấy, thì hư vô không tồn tại nữa.
+                </div>
+                <div class="essay" style="left: 619000px;">
+                    <span id="its-a-good">Thật là một điều tốt khi chúng ta có những ngôi sao và hành tinh tí hon này, nếu không thì chúng ta sẽ chẳng có một cái mốc nào cả.</span><span style="margin-left: 200px;">&nbsp;</span>
+                    <span id="wed-be-surrounded">Chúng ta được bao quanh bởi thứ mà tâm trí chúng ta không được xây dựng để hiểu.</span>
+                </div>
+                <div id="all-this-emptiness" class="essay" style="left: 646000px;">
+                  Tất cả những sự trống rỗng này có thể làm bạn phát điên. Ví dụ, nếu bạn bị nhốt trong một cái thùng bịt kín hoàn toàn quá lâu, bộ não sẽ bắt đầu sáng tạo ra các thứ. Bạn sẽ nghe và thấy những điều không tồn tại trong cái thùng đó.
+                </div>
+                <div id="the-brain-isnt" class="essay" style="left: 673000px;">Bộ não không được xây dựng để xử lý cái "trống rỗng".</div>
+                <div id="neurologically-speaking-we" class="essay" style="left: 727000px;">
+                  Về thần kinh học mà nói, chúng ta chỉ quen làm việc với vật chất ở một số kích cỡ nào đó, với năng lượng ở một vài bước sóng nào đó. Cho tất cả những thứ khác, chúng ta phải sáng tạo ra những mô hình trong tâm trí, và xem xét xem chúng có phù hợp với những bằng chứng tồn tại ít ỏi mà chúng ta có hay không.
+                </div>
+                <div class="essay" style="left: 754000px;">
+                    <span id="the-mental-models">Những mô hình được gây dựng nhờ sự trợ giúp của Toán học rất là hữu ích để hiểu thêm về những khoảng không bao la này, nhưng kể cả thế…</span><span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="abstraction-is-pretty">Sự trừu tượng thường không đem lại thỏa mãn.</span>
+                </div>
+                <div id="when-you-hear" class="essay" style="left: 781000px;">
+                  Khi bạn nghe người ta nói, "trong vũ trụ này còn nhiều thứ hơn trí tuệ chúng ta có thể tưởng tượng ra" thật ra đó là cách để họ dẫn dẵn bạn vào những thuyết nửa vời về Những vật thể bay không xác định, người ngoài hành tinh, siêu nhân… trong những tập phim khoa học viễn tưởng mà bạn giở ra xem vào mỗi tối khi bị mất ngủ.
+                </div>
+                <div id="even-when-shakespeare" class="essay" style="left: 808000px;">
+                    Kể cả khi Shakespeare viết: "Này Horatio, còn nhiều thứ trên thiên đàng và dưới mặt đất, hơn những thứ mà cả trong mơ triết học cũng không tưởng tượng ra" – thật ra tác giả đang cố tạo một điểm tựa để những con ma trong câu chuyện trở nên đáng tin hơn.
+                </div>
+                <!-- Uranus 827961px-->
+                <div id="but-all-this" class="essay" style="left: 860000px;">Nhưng tất cả những khoảng không trống rỗng này, những thứ có số đo cực lớn, thực sự vượt quá tầm suy nghĩ của chúng ta. Bản đồ hay phép so sánh đều không mang lại công bằng cho chúng.</div>
+                <div id="you-look-at" class="essay" style="left: 889000px;">Bạn nhìn vào một điểm tí hon, rồi bạn nhìn vào điểm tí hon tiếp theo. Mọi thứ giữa chúng đều không quan trọng và khá buồn tẻ.</div>
+                <div id="emptiness-is-actually" class="essay" style="left: 916000px;">Sự trống rỗng ở khắp nơi. Nó chiếm khoảng 99.9999999999999999999958% của phần vũ trụ mà chúng ta biết.</div>
+                <div id="even-an-atom" class="essay" style="left: 943000px;">Kể cả một nguyên tử cũng hầu hết là khoảng không trống rỗng.</div>
+                <div id="if-the-proton" class="essay" style="left: 970000px;">Nếu hạt proton, tức hạt nhân nguyên tử hydro, to bằng hình Mặt Trời trong bản đồ này, thì chúng ta cần chiều dài tương đương với toàn bộ 11 bản đồ để diễn tả khoảng cách trung bình đến electron.</div>
+                <div class="essay" style="left: 997000px;">
+                    <span id="some-theories-say">Một vài lý thuyết cho rằng tất cả những sự trống rỗng này thật ra đầy những năng lượng và vật chất tối, và rằng chẳng có gì thật sự trống rỗng…</span><span style="margin-left: 100px;">&nbsp;</span>
+                    <span id="but-come-on">thôi nào, chỉ có vật chất thông thường mới có ý nghĩa trong mắt chúng ta.</span>
+                </div>
+                <div id="you-could-safely" class="essay" style="left: 1024000px;">You could safely say the universe is a "whole lotta nothing."</div>
+                <div id="if-so-much" class="essay" style="left: 1051000px;">Nếu từng đó của Vũ trụ được cấu tạo bởi sự trống rỗng, thì điều đó có ý nghĩa gì với con người chúng ta, sống trên một hạt cát bé xíu giữa Vũ trụ?</div>
+                <div class="essay" style="left: 1078000px;">
+                    <span id="is-the-known">Phần vũ trụ mà chúng ta biết trống rỗng đến 99.9999999999999999999958%?</span><span style="margin-left: 100px;">&nbsp;</span><span id="or-is-it">Hay nó đầy 0.0000000000000000000042%?</span>
+                </div>
+                <div id="with-so-much" class="essay" style="left: 1105000px;">
+                  Với từng đó sự trống rỗng, phải chăng các vì sao, hành tinh, con người chỉ là những trục trặc trong cái hư vô đồng nhất và thanh thoát ấy, giống những sợi lông trắng trên cái ao len màu đen?
+                </div>
+                <div id="but-without-the" class="essay" style="left: 1132000px;">Nhưng nếu không có những chấm điểm tí hon đó để khoảng không trải lên trên, thì sẽ không có sự trống rỗng mà đo, và cũng không có ai để đo hết.</div>
+                <div class="essay" style="left: 1159000px;">
+                    <span id="you-might-say">Bạn có thể nói rằng từng đó sự trống rỗng càng làm những hạt vật chất tí hon trở nên có ý nghĩa hơn, đơn giản là bởi vì, trái với mọi sự trông đợi, chúng không trống rỗng.</span>
+                    <span style="margin-left: 100px;">&nbsp;</span><span id="if-youre-drowning">Nếu bạn đang đuối nước giữa đại dương, thì một mẩu gỗ nhỏ trôi nổi cực kỳ quan trọng.</span>
+                </div>
+                <div id="what-if-trillions" class="essay" style="left: 1186000px;">Điều gì xảy ra nếu hàng triệu tỉ ngôi sao và hành tinh nằm sát cạnh nhau? Chúng sẽ chẳng có gì đặc biệt nữa.</div>
+                <div id="it-seems-like" class="essay" style="left: 1213000px;">Có vẻ như chúng ta vừa nhỏ bé đến tội nghiệp, vừa quan trọng đến kỳ diệu.</div>
+                <div class="essay" style="left: 1240000px;">
+                    <span id="whether-you-more">
+                      Việc bạn dễ tưởng tượng sự nhỏ bé tột cùng của vật chất hơn, hay dễ tưởng tượng khoảng không khổng lồ giữa chúng hơn, phụ thuộc vào việc bạn là ai, và những cân bằng hóa học nào đang xảy ra trong não bạn ở thời điểm đó.
+                    </span>
+                    <span id="we-walk-around">Chúng ta dạo quanh với những phiên bản thu nhỏ và có tính cảm xúc của Vũ trụ bên trong chúng ta.</span>
+                </div>
+                <div id="its-reassuring-to" class="essay" style="left: 1267000px;">
+                  Thật an tâm khi biết rằng, dù chúng ta đang cảm thấy nhỏ bé một cách đáng thất vọng hay cảm thấy quan trọng đến mức nực cười, thì Vũ trụ, bởi cấu trúc hiện tại của nó, có vẻ như nhận thức rất rõ cả hai thái cực.
+                </div>
+                <!-- Neptune 1295901px-->
+                <div id="the-fact-that" class="essay" style="left: 1421000px;">Việc bạn đang ở đây, giữa một đống không-có-gì-cả, thật là kỳ diệu khi bạn dừng lại và nghĩ về việc đó.</div>
+                <div id="congratulations-on-making" class="essay" style="left: 1550000px;">Xin chúc mừng bạn đã đến được tận đây.</div>
+                <!-- Pluto 1699574px-->
+                <div class="essay" style="left: 1700500px;">
+                    <span id="might-as-well">Có lẽ nên dừng lại ở đây. Chúng ta cần lướt qua 6771 chiều dài bản đồ như thế này nữa trước khi có thể nhìn thấy thêm cái gì.</span>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a title="Quay lại" href="#prevanchor" class="prevjump"><img src="img/jumpprev.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Mặt Trời" href="#suntxt" class="planetjump"><img src="img/sun_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Thủy" href="#merctxt" class="planetjump"><img src="img/mercury_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Kim" href="#venustxt" class="planetjump"><img src="img/venus_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Trái Đất" href="#earthtxt" class="planetjump"><img src="img/earth_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Hỏa" href="#marstxt" class="planetjump"><img src="img/mars_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Mộc" href="#jupitertxt" class="planetjump"><img src="img/jupiter_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Thổ" href="#saturntxt" class="planetjump"><img src="img/saturn_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Thiên Vương" href="#uranustxt" class="planetjump"><img src="img/uranus_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Sao Hải Vương" href="#neptunetxt" class="planetjump"><img src="img/neptune_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a  title="Sao Diêm Vương" href="#plutotxt" class="planetjump"><img src="img/pluto_icon.svg" /></a>
+                    </li>
+                    <li>
+                        <a title="Đi tiếp" href="#nextanchor" class="nextjump"><img src="img/jumpnext.svg" /></a>
+                    </li>
+                </ul>
+                <div id="distance-counter">
+                    <div id="counter"></div>
+                    <span id="selectarrow"><img src="img/select-arrow.svg" /></span>
+                    <div id="unitselect">
+                        <ul>
+                            <li><a href="" id="km">km</a></li>
+                            <li><a href="" id="mi">dặm</a></li>
+                            <li><a href="" id="au">AU</a></li>
+                            <li><a href="" id="lightminutes">Phút ánh sáng</a></li>
+                            <li><a href="" id="pixels">Pixels</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--start over
+<div id="reloader"><a href=""><img src="img/reload.svg"><span class="warpfactor"> </span></a>
+</div> -->
+                <!--lightspeed! -->
+                <div id="lightspeeder">
+                    <a href=""><img src="img/lightspeed3.svg" /><span class="warpfactor"> </span></a>
+                </div>
+                <!-- this message fades in and out -->
+                <div id="lightspeedmsg">
+                    <div id="msg1">Ánh sáng di chuyển với tốc độ như thế này…</div>
+                    <div id="msg2">Đây là tốc độ lớn nhất chúng ta đo được trong Vũ trụ…</div>
+                    <div id="msg3">Nghiêm túc đấy.</div>
+                    <div id="msg4">Nếu bạn vội vã đến một chỗ nào đấy trong không gian…</div>
+                    <div id="msg5">Bạn sẽ phải nói chuyện với Ngài Einstein.</div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/l10n.js?v8"></script>
+    <script type="text/javascript" src="js/pxmoon.js?v4"></script>
+</html>
