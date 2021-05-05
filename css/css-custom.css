@@ -105,6 +105,54 @@ a:focus, a:hover {
 }
 /* end open new tab */
 
+/* moon-phase_table */
+.moon-phase_table {
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    width: 100%;
+}
+
+.moon-phase_table td {
+    border: 1px solid #dee2e6;
+    /* height: 90px; */
+    width: 70px;
+}
+
+.moon-phase_table td.date-now {
+    color: #FEC369;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.moon-phase_form {
+    text-align: center;
+}
+
+.moon-phase_select {
+    width: 125px;
+}
+
+.moon-phase_box {
+    padding: 20px;
+    height: 90px;
+}
+
+@media (max-width: 768px) {
+    .moon-phase_box {
+        padding: 0px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 340px) {
+    .moon-phase_table td {
+        font-size: 12px;
+    }
+}
+/* end moon-phase_table */
+
 @media (max-width: 991px) {
     .navbar.bg-transparent {
         background-color: #000!important;
