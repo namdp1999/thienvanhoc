@@ -21,9 +21,56 @@
 title: Trang Thiên Văn Học Việt Nam
 email: contact@namgd.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Trang Thiên Văn Học Việt Nam.
+  Website hàng đầu về kiến thức thiên văn học, vũ trụ học, công nghệ vũ trụ, và thiên văn Việt Nam.
+keywords:
+  [
+    thiên văn học,
+    thien van hoc,
+    hội thiên văn,
+    vật lý thiên văn,
+    vat ly thien van,
+    vũ trụ học,
+    vũ trụ,
+    khoa học,
+    hội thiên văn việt nam,
+    thiên văn việt nam,
+    hệ mặt trời,
+    trái đất,
+    hành tinh,
+    sao,
+    thiên hà,
+    kính thiên văn,
+    astronomy,
+    vietnam,
+    tên lửa,
+    khoa học không gian,
+    thien van viet nam,
+    thienvanvietnam,
+    thienvanhoc,
+    vatlythienvan,
+    thien ha,
+    cụm sao,
+    cum sao,
+    lỗ đen,
+    lo den,
+    hố đen,
+    ho den,
+    sao neutron,
+    sao nơtron,
+    sao lùn,
+    sao lun,
+    sao khổng lồ,
+    sao khong lo,
+    chòm sao,
+    chom sao,
+    Cự giải,
+    cu giai,
+    Bạch dương,
+    bach duong,
+  ]
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thienvanhoc.namgd.com" # the base hostname & protocol for your site, e.g. http://example.com
+lang: vi
 # twitter_username: jekyllrb
 # github_username: jekyll
 permalink: /:categories/:title/
