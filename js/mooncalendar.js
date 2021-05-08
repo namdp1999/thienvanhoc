@@ -118,6 +118,9 @@ function input_table(begin, count) {
       (currentDate.getTime() - blueMoonDate.getTime()) % lunarPeriod;
     var percentRaw = moonPhaseTime / lunarPeriod;
     var lunarday = Math.round(29 * percentRaw);
+    if (c < 10) {
+      c = "0" + c;
+    }
     if (lunarday < 0)
       lunarday = Math.round(29 + 12 / 24 + 44.05 / (24 * 60) + 29 * percentRaw);
     colum_name.innerHTML =
@@ -125,7 +128,19 @@ function input_table(begin, count) {
       c +
       "<img align=right src=../images/moon-phase-calendar/moon" +
       lunarday +
-      ".gif></div>";
+      ".gif title='Pha Mặt Trăng ngày " +
+      c +
+      " tháng " +
+      (show_date.getMonth() + 1) +
+      " năm " +
+      show_date.getFullYear() +
+      "' alt='Pha Mặt Trăng ngày " +
+      c +
+      " tháng " +
+      (show_date.getMonth() + 1) +
+      " năm " +
+      show_date.getFullYear() +
+      "'></div>";
     i++;
     if (i == 7) {
       i = 0;
