@@ -67,7 +67,7 @@
                                     <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
                                         <div class="blog-post-image bg-medium-slate-blue">
                                             <a href="{{ post.url }}" title="{{ post.title }}">
-                                                <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/{{ post.image }}.webp" loading="lazy" alt="">
+                                                <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/{{ post.image }}.webp" loading="lazy" title="{{ post.title }}" alt="{{ post.title }}">
                                             </a>
                                         </div>
                                         <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black text-center">
@@ -110,7 +110,7 @@
                                     <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
                                         <div class="blog-post-image bg-medium-slate-blue">
                                             <a href="{{ post.url }}" title="{{ post.title }}">
-                                                <img src="{{ site.baseurl }}/images/lich-thien-van/post/{{ post.image }}.webp" loading="lazy" alt="">
+                                                <img src="{{ site.baseurl }}/images/lich-thien-van/post/{{ post.image }}.webp" loading="lazy" title="{{ post.title }}" alt="{{ post.title }}">
                                             </a>
                                             <a href="{{ post.url }}" class="blog-category alt-font font-weight-600">Ngày {{ post.thoigian }}/{{ post.date | date: "%m" }}</a>
                                         </div>
@@ -151,12 +151,12 @@
                                     <div class="swiper-slide padding-2-rem-lr">
                                         <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
                                             <div class="blog-post-image bg-medium-slate-blue">
-                                                <a href="{{ post.url }}" title="{{ post.title }}">
-                                                    <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/ve-tinh/{{ post.image }}.webp" loading="lazy" alt="">
+                                                <a href="{{ post.url }}" title="{{ post.title }} - Vệ tinh của {{ post.satellite-of }}">
+                                                    <img src="{{ site.baseurl }}/images/kien-thuc//category/he-mat-troi/ve-tinh/{{ post.image }}.webp" loading="lazy" title="{{ post.title }} - Vệ tinh của {{ post.satellite-of }}" alt="{{ post.title }} - Vệ tinh của {{ post.satellite-of }}">
                                                 </a>
                                             </div>
                                             <div class="post-details padding-2-rem-lr padding-1-half-rem-tb bg-black text-center">
-                                                <a href="{{ post.url }}" title="{{ post.title }}" class="alt-font font-weight-600 text-extra-medium text-white">
+                                                <a href="{{ post.url }}" title="{{ post.title }} - Vệ tinh của {{ post.satellite-of }}" class="alt-font font-weight-600 text-extra-medium text-white">
                                                     {{ post.title }}
                                                     <br />
                                                     ({{ post.satellite-of }})
