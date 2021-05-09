@@ -38,3 +38,11 @@
 <script src='{{ "/js/theme-vendors.min.js" | relative_url }}'></script>
 <script src='{{ "/js/main.js" | relative_url }}'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js" async></script>
+<script>
+    document.addEventListener('lazybeforeunveil', function(e){
+        var bg = e.target.getAttribute('data-bg');
+        if(bg){
+            e.target.style.backgroundImage = 'url(' + bg + ')';
+        }
+    });
+</script>
