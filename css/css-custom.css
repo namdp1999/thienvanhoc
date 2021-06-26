@@ -58,6 +58,24 @@ body {
     height: 56px;
 }
 
+.last-paragraph-no-margin p:last-of-type {
+    margin: 0 0 25px;
+}
+
+.footer-hotel-resort.footer-dark, .footer-hotel-resort.footer-dark a {
+    border-radius: 6px;
+}
+
+figcaption {
+    background-color: #000;
+    overflow: hidden;
+    padding: 20px;
+}
+
+figcaption p:last-child {
+    margin-bottom: 0!important;
+}
+
 a:focus, a:hover {
     text-decoration: none;
     outline: 0;
@@ -89,6 +107,54 @@ a:focus, a:hover {
     border-radius: 6px;
 }
 /* 3d-model end */
+
+/* ec-coverage */
+.ec-coverage__title {
+    font-size: 13px;
+    color: #fff;
+}
+
+.legend__ec-coverage p {
+    width: 20%;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0px;
+    font-style: normal;
+    color: #fff;
+}
+
+.legend__ec-coverage .figkey {
+    border: 1px solid #343a40;
+    display: block;
+    width: 100%;
+    border-right: 1px solid #343a40;
+    border-left: 1px solid #343a40;
+    height: 6px;
+    background: #fff;
+}
+
+.legend__ec-coverage p:first-child .figkey {
+    border-left: 1px solid #343a40;
+}
+/* end ec-coverage */
+
+/* ecl-animcap */
+.ecl-animcap {
+    color: #fff;
+    font-size: 13px;
+}
+
+.ecl-animcap p {
+    margin-bottom: 0;
+}
+
+.ecl-animcap .figkey {
+    border: 1px solid #343a40;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+}
+/* end ecl-animcap */
 
 /* open new tab */
 .open-new-tab {
