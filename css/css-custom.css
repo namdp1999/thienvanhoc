@@ -91,6 +91,18 @@ a:focus, a:hover {
     background: #FFC367;
 }
 
+/* know_detail */
+.know_detail__info {
+    background-color: #FFC367;
+    color: #000;
+}
+
+.know_detail__content {
+    background-color: #fff;
+    color: #000;
+}
+/* end know_detail */
+
 /* 3d-model */
 .model-viewer-container {
     width: 100%;
