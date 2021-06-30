@@ -1,0 +1,57 @@
+---
+layout: blank_content
+title: "Bản Đồ Sao"
+date:   01-08-2021 00:00:01
+categories: [Kien-thuc, Ngoi-sao]
+image: ban-do-sao
+---
+<style>
+    .iframe_box {
+        width: 100%;
+        height: 86vh;
+    }
+
+    .iframe_box iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+    }
+
+    table tr {
+        border-bottom: 1px solid #232323;
+    }
+</style>
+
+<section class="bg-dark">
+    <div class="general_detail">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h5 class="alt-font font-weight-600 text-white">
+                        {{ page.title | escape }}
+                    </h5>
+                    <p class="text-white margin-30px-bottom"><strong>Bản Đồ Sao</strong> là một mô hình trực quan tương tác với các ngôi sao vùng lân cận với Mặt Trời. Nó hiển thị vị trí của 119.617 ngôi sao lân cận xuất phát từ nhiều nguồn, bao gồm cả sứ mệnh năm 1989 Hipparcos. Phóng to sẽ thấy 87 ngôi sao được xác định riêng lẻ và hệ mặt trời của chúng ta.</p>
+                    <p class="text-white margin-30px-bottom"><strong>Hướng dẫn:</strong> Di chuyển bằng chuột và phóng to / thu nhỏ bằng con lăn chuột. Nhấp vào tên của một ngôi sao để tìm hiểu thêm về nó.</p>
+                    <p class="text-white margin-30px-bottom"><i>Lưu ý: Hãy nhấn "Xem toàn màn hình" để có trải nghiệm tốt nhất.</i></p>
+                    <div class="margin-30px-bottom">
+                        <a target="_blank" class="open-new-tab" href="{{ site.baseurl }}/app/ngoi-sao/star-map"><i class="feather icon-feather-maximize margin-10px-right"></i> Xem toàn màn hình</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-lg-12 margin-30px-bottom">
+                        <div class="iframe_box">
+                            <iframe 
+                                id="fullscreen"
+                                src="{{ site.baseurl }}/app/ngoi-sao/star-map" 
+                                title="Bản Đồ Sao"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
