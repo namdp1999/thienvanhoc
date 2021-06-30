@@ -155,7 +155,7 @@ title: Hệ Mặt Trời
             <div class="col-12">
                 <div class="swiper-container text-center" data-slider-options='{ "slidesPerView": 1, "loop": false, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2 }, "768": { "slidesPerView": 2 } } }'>
                     <div class="swiper-wrapper">
-                        {% for post in site.categories.Kien-thuc reversed %}
+                        {% for post in site.categories.Kien-thuc %}
                         {% if post.categories contains "He-mat-troi" and post.categories contains "Tong-hop" %}
                             <div class="swiper-slide padding-2-rem-lr">
                                 <div title="{{ post.title }}" class="blog-post border-radius-5px bg-white box-shadow-medium">
