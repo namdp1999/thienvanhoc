@@ -6,9 +6,9 @@ lichthienvan:
       - page: Năm 2022
         url: /lich-thien-van/nam-2022/
         image: 2022.webm
-      # - page: Năm 2023
-      #   url: /lich-thien-van/nam-2023/
-      #   image: 2023.webm
+      - page: Năm 2023
+        url: /lich-thien-van/nam-2023/
+        image: 2023.webm
       # - page: Năm 2024
       #   url: /lich-thien-van/nam-2024/
       #   image: 2024.webm
